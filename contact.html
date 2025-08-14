@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Trans-Siberian Shipping LLC</title>
+    <meta name="description" content="Get in touch with our global logistics team for shipping inquiries and support.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/logo-white.webp" alt="Trans-Siberian Shipping LLC Logo" class="logo-img" width="150" height="40">
+                <span class="logo-text">Trans-Siberian Shipping</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="responsibility.html" class="nav-link">Responsibility</a></li>
+                <li class="nav-item"><a href="sustainability.html" class="nav-link">Sustainability</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="terminals.html" class="nav-link">Terminals</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content" data-aos="fade-up">
+                <h1>Connect With Our Team</h1>
+                <p>Our logistics experts are ready to assist with your shipping needs around the globe</p>
+                <a href="#contact-form" class="btn">Send a Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="contact-methods">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact Options</h2>
+                <p class="section-subtitle">Choose your preferred method to get in touch with our team</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-icon">
+                        <span aria-hidden="true">📞</span>
+                    </div>
+                    <h3>Phone Support</h3>
+                    <ul class="contact-info">
+                        <li><strong>General Inquiries:</strong> <a href="tel:+11004444039">+1 100 444 4039</a></li>
+                        <li><strong>Emergency Support:</strong> <a href="tel:+11004444040">+1 100 444 4040</a></li>
+                        <li><strong>Hours:</strong> 24/7</li>
+                    </ul>
+                </div>
+                
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-icon">
+                        <span aria-hidden="true">✉️</span>
+                    </div>
+                    <h3>Email</h3>
+                    <ul class="contact-info">
+                        <li><strong>Customer Service:</strong> <a href="mailto:info@transsiberianshipping.com">info@transsiberianshipping.com</a></li>
+                        <li><strong>Sales:</strong> <a href="mailto:sales@transsiberianshipping.com">sales@transsiberianshipping.com</a></li>
+                        <li><strong>Support:</strong> <a href="mailto:support@transsiberianshipping.com">support@transsiberianshipping.com</a></li>
+                    </ul>
+                </div>
+                
+                <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-icon">
+                        <span aria-hidden="true">💬</span>
+                    </div>
+                    <h3>Live Chat</h3>
+                    <ul class="contact-info">
+                        <li><strong>Available:</strong> Mon-Fri, 8AM-8PM EST</li>
+                        <li>Click the chat icon in the bottom right corner</li>
+                        <li>Average response time: &lt;2 minutes</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary" style="margin-top: 20px;">Start Chat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Send Us a Message</h2>
+                <p class="section-subtitle">Fill out the form below and our team will respond within 24 hours</p>
+            </div>
+            
+            <div class="form-container" data-aos="fade-up">
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                        <div class="invalid-feedback">Please enter your name</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                        <div class="invalid-feedback">Please enter a valid email</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <select id="subject" name="subject" class="form-control" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Freight Quote">Freight Quote</option>
+                            <option value="Tracking">Tracking</option>
+                            <option value="Terminal Services">Terminal Services</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a subject</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                        <div class="invalid-feedback">Please enter your message</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn form-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations -->
+    <section class="office-locations">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Our Offices</h2>
+                <p class="section-subtitle">Visit us at one of our global headquarters locations</p>
+            </div>
+            
+            <div class="locations-grid">
+                <div class="location-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./assests/img11.jpg" alt="Las Vegas headquarters building" class="location-image" loading="lazy" width="400" height="200">
+                    <div class="location-content">
+                        <h3>Las Vegas Headquarters</h3>
+                        <p>8275 S Eastern Ave Ste 200-885<br>Las Vegas, Nevada 89123</p>
+                        <p><strong>Phone:</strong> <a href="tel:+11004444039">+1 100 444 4039</a></p>
+                        <p><strong>Hours:</strong> Mon-Fri, 8AM-5PM PST</p>
+                    </div>
+                </div>
+                
+                <div class="location-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assests/img14.jpeg" alt="Moscow regional office building" class="location-image" loading="lazy" width="400" height="200">
+                    <div class="location-content">
+                        <h3>Moscow Regional Office</h3>
+                        <p>Presnenskaya Naberezhnaya 10<br>Moscow, Russia 123317</p>
+                        <p><strong>Phone:</strong> <a href="tel:+74957888888">+7 495 788 8888</a></p>
+                        <p><strong>Hours:</strong> Mon-Fri, 9AM-6PM MSK</p>
+                    </div>
+                </div>
+                
+                <div class="location-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./assests/img13.jpg" alt="Shanghai regional office building" class="location-image" loading="lazy" width="400" height="200">
+                    <div class="location-content">
+                        <h3>Shanghai Regional Office</h3>
+                        <p>100 Century Avenue, Pudong<br>Shanghai, China 200120</p>
+                        <p><strong>Phone:</strong> <a href="tel:+862158988888">+86 21 5898 8888</a></p>
+                        <p><strong>Hours:</strong> Mon-Fri, 8:30AM-5:30PM CST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="contact-cta-content" data-aos="fade-up">
+                <h2>Ready to Ship With Us?</h2>
+                <p>Get a free quote for your logistics needs from our global shipping experts</p>
+                <a href="#contact-form" class="btn">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-aos="fade-up">
+                    <a href="index.html" class="footer-logo">
+                        <img src="./assests/Logo/Trans-Siberian Shipping LLC (White).png" alt="Trans-Siberian Shipping LLC Logo" width="150" height="40">
+                        <span>Trans-Siberian Shipping LLC</span>
+                    </a>
+                    <div class="footer-about">
+                        <p>Global logistics solutions connecting continents through innovative shipping services and the Trans-Siberian route expertise.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f">f</i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in">in</i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter">t</i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram">ig</i></a>
+                    </div>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="responsibility.html">Responsibility</a></li>
+                        <li><a href="sustainability.html">Sustainability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#ocean">Ocean Freight</a></li>
+                        <li><a href="services.html#rail">Rail Transport</a></li>
+                        <li><a href="services.html#air">Air Freight</a></li>
+                        <li><a href="services.html#warehousing">Warehousing</a></li>
+                        <li><a href="services.html#customs">Customs Clearance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i aria-hidden="true">📍</i>
+                            <span>8275 S Eastern Ave Ste 200-885<br>Las Vegas, Nevada 89123</span>
+                        </li>
+                        <li>
+                            <i aria-hidden="true">📞</i>
+                            <span>+1 100 444 4039</span>
+                        </li>
+                        <li>
+                            <i aria-hidden="true">✉️</i>
+                            <span>info@transsiberianshipping.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trans-Siberian Shipping LLC. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        // Form validation
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                let isValid = true;
+                
+                // Validate required fields
+                const requiredFields = contactForm.querySelectorAll('[required]');
+                requiredFields.forEach(field => {
+                    field.classList.remove('is-invalid');
+                    if (!field.value.trim()) {
+                        field.classList.add('is-invalid');
+                        isValid = false;
+                    }
+                });
+                
+                // Validate email format
+                const emailField = contactForm.querySelector('#email');
+                if (emailField && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailField.value)) {
+                    emailField.classList.add('is-invalid');
+                    isValid = false;
+                }
+                
+                if (isValid) {
+                    // Form is valid - submit via AJAX or allow normal submission
+                    contactForm.classList.add('was-validated');
+                    
+                    // Here you would typically submit the form via AJAX
+                    // For demo purposes, we'll just show an alert
+                    alert('Thank you for your message! We will respond within 24 hours.');
+                    contactForm.reset();
+                }
+            });
+        }
+
+        // Lazy load images
+        if ('loading' in HTMLImageElement.prototype) {
+            // Native lazy loading supported
+            const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+            lazyImages.forEach(img => {
+                img.src = img.dataset.src || img.src;
+            });
+        } else {
+            // Fallback for browsers without native lazy loading
+            const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+            const lazyLoad = function() {
+                lazyImages.forEach(img => {
+                    if (img.getBoundingClientRect().top <= window.innerHeight && img.getBoundingClientRect().bottom >= 0 && getComputedStyle(img).display !== 'none') {
+                        img.src = img.dataset.src || img.src;
+                        img.removeAttribute('data-src');
+                    }
+                });
+            };
+            
+            lazyLoad();
+            document.addEventListener('scroll', lazyLoad);
+            window.addEventListener('resize', lazyLoad);
+            window.addEventListener('orientationchange', lazyLoad);
+        }
+
+        // Check for reduced motion preference
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reducedMotion) {
+            document.documentElement.style.scrollBehavior = 'auto';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Terminals - Trans-Siberian Shipping LLC</title>
+    <meta name="description" content="Explore our global network of strategically located terminals and logistics hubs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/terminals.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="./assests/Logo/Trans-Siberian Shipping LLC.png" alt="Trans-Siberian Shipping LLC Logo" class="logo-img" width="150" height="40">
+                <span class="logo-text">Trans-Siberian Shipping</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="responsibility.html" class="nav-link">Responsibility</a></li>
+                <li class="nav-item"><a href="sustainability.html" class="nav-link">Sustainability</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="terminals.html" class="nav-link active">Terminals</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="terminals-hero">
+        <div class="container">
+            <div class="terminals-hero-content" data-aos="fade-up">
+                <h1>Our Global Network</h1>
+                <p>Strategically located terminals connecting key markets across three continents</p>
+                <a href="#terminal-map" class="btn">View Our Locations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Network Section -->
+    <section class="network">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Terminal Locations</h2>
+                <p class="section-subtitle">Our strategically positioned terminals ensure efficient cargo handling and quick turnaround times</p>
+            </div>
+            
+            <div class="map-container" data-aos="fade-up">
+                <div id="terminal-map">
+                    <div class="map-loading">
+                        <div class="map-loading-spinner"></div>
+                    </div>
+                </div>
+                <div class="map-legend" data-aos="fade-left" data-aos-delay="300">
+                    <div class="legend-item">
+                        <div class="legend-icon" style="background: var(--primary-color);"></div>
+                        <span>Major Hub</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-icon" style="background: var(--secondary-color);"></div>
+                        <span>Regional Terminal</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-icon" style="background: #2ECC71;"></div>
+                        <span>Specialized Facility</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="terminals-grid">
+                <!-- Terminal 1 -->
+                <div class="terminal-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./assests/img4.jpg" alt="Vladivostok Terminal with cranes and shipping containers" class="terminal-image" loading="lazy" width="500" height="250">
+                    <div class="terminal-content">
+                        <h3>Vladivostok Terminal</h3>
+                        <div class="terminal-location">
+                            <span aria-hidden="true">📍</span>
+                            <span>Vladivostok, Russia</span>
+                        </div>
+                        <p>Our flagship terminal and primary gateway between Asia and Europe via the Trans-Siberian Railway.</p>
+                        
+                        <div class="terminal-features">
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>Annual capacity: 500,000 TEU</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>On-dock rail facility</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>24/7 operations</span>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-secondary">Contact Terminal</a>
+                    </div>
+                </div>
+                
+                <!-- Terminal 2 -->
+                <div class="terminal-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assests/img7.jpg" alt="Rotterdam Terminal aerial view with ships and containers" class="terminal-image" loading="lazy" width="500" height="250">
+                    <div class="terminal-content">
+                        <h3>Rotterdam Terminal</h3>
+                        <div class="terminal-location">
+                            <span aria-hidden="true">📍</span>
+                            <span>Rotterdam, Netherlands</span>
+                        </div>
+                        <p>Our European hub with direct access to the continent's most extensive inland waterway and road network.</p>
+                        
+                        <div class="terminal-features">
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>300,000 sqm warehouse space</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>Customs clearance on-site</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>Dangerous goods handling</span>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-secondary">Contact Terminal</a>
+                    </div>
+                </div>
+                
+                <!-- Terminal 3 -->
+                <div class="terminal-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./assests/img22.jpg" alt="Los Angeles Terminal with stacked shipping containers" class="terminal-image" loading="lazy" width="500" height="250">
+                    <div class="terminal-content">
+                        <h3>Los Angeles Terminal</h3>
+                        <div class="terminal-location">
+                            <span aria-hidden="true">📍</span>
+                            <span>Los Angeles, USA</span>
+                        </div>
+                        <p>Our North American gateway with direct rail connections to major inland distribution centers.</p>
+                        
+                        <div class="terminal-features">
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>Cross-dock facilities</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>FTZ designation</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>40,000 pallet positions</span>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-secondary">Contact Terminal</a>
+                    </div>
+                </div>
+                
+                <!-- Terminal 4 -->
+                <div class="terminal-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="./assests/img9.jpg" alt="Shanghai Terminal with cranes and ships at dock" class="terminal-image" loading="lazy" width="500" height="250">
+                    <div class="terminal-content">
+                        <h3>Shanghai Terminal</h3>
+                        <div class="terminal-location">
+                            <span aria-hidden="true">📍</span>
+                            <span>Shanghai, China</span>
+                        </div>
+                        <p>Our primary Asian hub with direct connections to manufacturing centers throughout China.</p>
+                        
+                        <div class="terminal-features">
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>800,000 TEU annual capacity</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>Automated stacking cranes</span>
+                            </div>
+                            <div class="terminal-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <span>On-site customs</span>
+                            </div>
+                        </div>
+                        
+                        <a href="contact.html" class="btn btn-secondary">Contact Terminal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal Stats -->
+    <section class="terminal-stats">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">By The Numbers</h2>
+                <p class="section-subtitle">Our terminal network at a glance</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">Terminals Worldwide</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-number">3M</div>
+                    <div class="stat-label">TEU Annual Capacity</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Acres of Storage</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Operations</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="terminals-cta">
+        <div class="container">
+            <div class="terminals-cta-content" data-aos="fade-up">
+                <h2>Need Terminal Services?</h2>
+                <p>Contact our terminal operations team to discuss your cargo handling requirements.</p>
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-aos="fade-up">
+                    <a href="index.html" class="footer-logo">
+                        <img src="./assests/Logo/Trans-Siberian Shipping LLC (White).png" alt="Trans-Siberian Shipping LLC Logo" width="150" height="40">
+                        <span>Trans-Siberian Shipping LLC</span>
+                    </a>
+                    <div class="footer-about">
+                        <p>Global logistics solutions connecting continents through innovative shipping services and the Trans-Siberian route expertise.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f">f</i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in">in</i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter">t</i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram">ig</i></a>
+                    </div>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="responsibility.html">Responsibility</a></li>
+                        <li><a href="sustainability.html">Sustainability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#ocean">Ocean Freight</a></li>
+                        <li><a href="services.html#rail">Rail Transport</a></li>
+                        <li><a href="services.html#air">Air Freight</a></li>
+                        <li><a href="services.html#warehousing">Warehousing</a></li>
+                        <li><a href="services.html#customs">Customs Clearance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i aria-hidden="true">📍</i>
+                            <span>8275 S Eastern Ave Ste 200-885<br>Las Vegas, Nevada 89123</span>
+                        </li>
+                        <li>
+                            <i aria-hidden="true">📞</i>
+                            <span>+1 100 444 4039</span>
+                        </li>
+                        <li>
+                            <i aria-hidden="true">✉️</i>
+                            <span>info@transsiberianshipping.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Trans-Siberian Shipping LLC. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Leaflet JS for Maps -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        // Initialize Terminal Map
+        function initMap() {
+            const mapLoading = document.querySelector('.map-loading');
+            
+            try {
+                // Create map centered on Eurasia
+                const map = L.map('terminal-map', {
+                    preferCanvas: true,
+                    zoomControl: false
+                }).setView([50, 80], 3);
+                
+                // Add zoom control with position
+                L.control.zoom({
+                    position: 'topright'
+                }).addTo(map);
+                
+                // Add tile layer (OpenStreetMap)
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                    maxZoom: 18,
+                }).addTo(map);
+                
+                // Terminal locations with different icons
+                const majorHubIcon = L.divIcon({
+                    html: '<div style="background: var(--primary-color); width: 20px; height: 20px; border-radius: 50%; border: 2px solid white;"></div>',
+                    className: 'custom-icon',
+                    iconSize: [24, 24]
+                });
+                
+                const regionalIcon = L.divIcon({
+                    html: '<div style="background: var(--secondary-color); width: 16px; height: 16px; border-radius: 50%; border: 2px solid white;"></div>',
+                    className: 'custom-icon',
+                    iconSize: [20, 20]
+                });
+                
+                const specializedIcon = L.divIcon({
+                    html: '<div style="background: #2ECC71; width: 16px; height: 16px; border-radius: 50%; border: 2px solid white;"></div>',
+                    className: 'custom-icon',
+                    iconSize: [20, 20]
+                });
+                
+                // Add terminal markers
+                const terminals = [
+                    {
+                        name: "Vladivostok Terminal",
+                        coords: [43.1167, 131.9000],
+                        type: "major",
+                        popup: "<b>Vladivostok Terminal</b><br>Primary Trans-Siberian gateway"
+                    },
+                    {
+                        name: "Rotterdam Terminal",
+                        coords: [51.9225, 4.4792],
+                        type: "major",
+                        popup: "<b>Rotterdam Terminal</b><br>European distribution hub"
+                    },
+                    {
+                        name: "Los Angeles Terminal",
+                        coords: [33.7175, -118.2522],
+                        type: "major",
+                        popup: "<b>Los Angeles Terminal</b><br>North American gateway"
+                    },
+                    {
+                        name: "Shanghai Terminal",
+                        coords: [31.2304, 121.4737],
+                        type: "major",
+                        popup: "<b>Shanghai Terminal</b><br>Asian manufacturing hub"
+                    },
+                    {
+                        name: "Moscow Terminal",
+                        coords: [55.7558, 37.6173],
+                        type: "regional",
+                        popup: "<b>Moscow Terminal</b><br>Russian inland distribution"
+                    },
+                    {
+                        name: "Singapore Terminal",
+                        coords: [1.3521, 103.8198],
+                        type: "regional",
+                        popup: "<b>Singapore Terminal</b><br>Southeast Asia hub"
+                    },
+                    {
+                        name: "Dubai Terminal",
+                        coords: [25.2048, 55.2708],
+                        type: "regional",
+                        popup: "<b>Dubai Terminal</b><br>Middle East gateway"
+                    },
+                    {
+                        name: "Hamburg Terminal",
+                        coords: [53.5488, 9.9872],
+                        type: "regional",
+                        popup: "<b>Hamburg Terminal</b><br>Northern Europe hub"
+                    },
+                    {
+                        name: "New York Terminal",
+                        coords: [40.7128, -74.0060],
+                        type: "regional",
+                        popup: "<b>New York Terminal</b><br>East Coast operations"
+                    },
+                    {
+                        name: "Refrigerated Terminal",
+                        coords: [35.6762, 139.6503],
+                        type: "specialized",
+                        popup: "<b>Tokyo Refrigerated Terminal</b><br>Specialized cold storage"
+                    },
+                    {
+                        name: "Bulk Terminal",
+                        coords: [-23.5505, -46.6333],
+                        type: "specialized",
+                        popup: "<b>São Paulo Bulk Terminal</b><br>Dry bulk handling"
+                    },
+                    {
+                        name: "Automotive Terminal",
+                        coords: [51.5074, -0.1278],
+                        type: "specialized",
+                        popup: "<b>London Automotive Terminal</b><br>Vehicle processing"
+                    }
+                ];
+
+                // Add markers to map
+                terminals.forEach(terminal => {
+                    let icon;
+                    switch(terminal.type) {
+                        case "major":
+                            icon = majorHubIcon;
+                            break;
+                        case "regional":
+                            icon = regionalIcon;
+                            break;
+                        case "specialized":
+                            icon = specializedIcon;
+                            break;
+                        default:
+                            icon = majorHubIcon;
+                    }
+
+                    L.marker(terminal.coords, { icon: icon })
+                        .addTo(map)
+                        .bindPopup(terminal.popup);
+                });
+
+                // Fit map to show all markers
+                const markerGroup = new L.featureGroup(
+                    terminals.map(t => L.marker(t.coords))
+                );
+                map.fitBounds(markerGroup.getBounds().pad(0.2));
+
+                // Hide loading spinner when map is ready
+                map.whenReady(function() {
+                    setTimeout(() => {
+                        mapLoading.style.opacity = '0';
+                        setTimeout(() => {
+                            mapLoading.style.display = 'none';
+                        }, 300);
+                    }, 500);
+                });
+
+            } catch (error) {
+                console.error("Error initializing map:", error);
+                mapLoading.innerHTML = '<p>Unable to load map. Please try again later.</p>';
+            }
+        }
+
+        // Initialize map when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initMap();
+            
+            // Lazy load images
+            if ('loading' in HTMLImageElement.prototype) {
+                // Native lazy loading supported
+                const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+                lazyImages.forEach(img => {
+                    img.src = img.dataset.src || img.src;
+                });
+            } else {
+                // Fallback for browsers without native lazy loading
+                const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+                const lazyLoad = function() {
+                    lazyImages.forEach(img => {
+                        if (img.getBoundingClientRect().top <= window.innerHeight && img.getBoundingClientRect().bottom >= 0 && getComputedStyle(img).display !== 'none') {
+                            img.src = img.dataset.src || img.src;
+                            img.removeAttribute('data-src');
+                        }
+                    });
+                };
+                
+                lazyLoad();
+                document.addEventListener('scroll', lazyLoad);
+                window.addEventListener('resize', lazyLoad);
+                window.addEventListener('orientationchange', lazyLoad);
+            }
+        });
+
+        // Check for reduced motion preference
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reducedMotion) {
+            document.documentElement.style.scrollBehavior = 'auto';
+        }
+    </script>
+</body>
+</html>
