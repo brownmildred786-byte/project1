@@ -160,6 +160,7 @@
         .carousel-content {
             position: absolute;
             top: 50%;
+            left: 0;
             transform: translateY(-50%);
             max-width: 600px;
             color: white;
