@@ -164,8 +164,9 @@
             }
 
             .logo-text{
-                font-size:medium;
-                text-wrap: wrap;
+                font-size:medium !important;
+                text-wrap: wrap !important;
+                width: auto;
             }
 
             .nav-toggle {
