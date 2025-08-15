@@ -527,12 +527,16 @@
             display: hidden ! important;
                                 }
                                 .hero-title {
-            font-size: 2rem;
-            font-weight: 400;
+            font-size: 3rem;
+            font-weight: 500;
             margin-bottom: 20px;
             line-height: 1;
             opacity: 0;
             transform: translateY(30px);
             transition: all 0.8s ease-out;
                                 }
+                        .services-grid{
+                                display: flex;
+                                flex-direction: column;
+                        }
                 }
