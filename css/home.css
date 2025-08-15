@@ -517,3 +517,10 @@
             font-size: 1.2rem;
             opacity: 0.9;
         }
+
+                @media (max-width: 768px) {
+                    .about-content{
+                        display: flex !important;
+                        flex-direction: column;
+                    }
+                }
