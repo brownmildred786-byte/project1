@@ -12,7 +12,7 @@
             const preloader = document.getElementById('preloader');
             setTimeout(function() {
                 preloader.classList.add('hidden');
-            }, 1800);
+            }, 1000);
         });
 
         // Mobile Navigation Toggle
