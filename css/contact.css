@@ -122,6 +122,7 @@
             box-shadow: var(--shadow);
             transition: var(--transition);
             text-align: center;
+            overflow: hidden;
         }
 
         .contact-card:hover {
@@ -162,6 +163,7 @@
             color: var(--text-light);
             text-decoration: none;
             transition: var(--transition);
+            text-wrap: wrap;
         }
 
         .contact-info a:hover {
