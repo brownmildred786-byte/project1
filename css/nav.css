@@ -13,6 +13,7 @@
             --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             --green-accent: #58B3FF;
             --dark-green: #58B3FF;
+            --vh: 1vh;
         }
 
         /* Base Styles */
@@ -28,6 +29,8 @@
             color: var(--text-dark);
             overflow-x: hidden;
             background-color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         /* Navigation */
@@ -85,6 +88,7 @@
             font-size: 1.4rem;
             color: var(--primary-color);
             transition: var(--transition);
+            white-space: nowrap;
         }
 
         .nav-menu {
@@ -139,6 +143,10 @@
         }
 
         @media (max-width: 768px) {
+            .nav-container {
+                padding: 0 15px;
+            }
+
             .nav-menu {
                 position: fixed;
                 left: -100%;
@@ -151,6 +159,7 @@
                 box-shadow: 0 10px 27px rgba(0,0,0,0.1);
                 padding: 30px 0;
                 backdrop-filter: blur(10px);
+                z-index: 999;
             }
 
             .nav-menu.active {
@@ -161,12 +170,18 @@
                 color: white;
                 padding: 15px;
                 display: block;
+                font-size: 1rem;
             }
 
-            .logo-text{
-                font-size:medium !important;
-                text-wrap: wrap !important;
-                width: auto;
+            .logo-text {
+                font-size: 1rem;
+                line-height: 1.2;
+                max-width: 150px;
+            }
+
+            .logo-img {
+                width: 40px;
+                height: 40px;
             }
 
             .nav-toggle {
@@ -183,5 +198,25 @@
 
             .nav-toggle.active .bar:nth-child(3) {
                 transform: translateY(-9px) rotate(-45deg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                height: 70px;
+            }
+
+            .logo-text {
+                font-size: 0.9rem;
+                max-width: 120px;
+            }
+
+            .logo-img {
+                width: 35px;
+                height: 35px;
+            }
+
+            .nav-menu {
+                top: 70px;
             }
         }
