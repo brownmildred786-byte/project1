@@ -163,6 +163,11 @@
                 display: block;
             }
 
+            .logo-text{
+                font-size:medium;
+                text-wrap: wrap;
+            }
+
             .nav-toggle {
                 display: flex;
             }
