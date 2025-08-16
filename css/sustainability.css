@@ -10,6 +10,10 @@
             position: relative;
         }
 
+        section:first-of-type {
+            margin-top: 80px;
+        }
+
         .section-header {
             text-align: center;
             margin-bottom: 80px;
@@ -457,6 +461,10 @@
         }
 
         @media (max-width: 992px) {
+            section:first-of-type {
+                margin-top: 80px;
+            }
+
             .impact-content {
                 grid-template-columns: 1fr;
                 gap: 40px;
@@ -494,6 +502,10 @@
         }
 
         @media (max-width: 768px) {
+            section:first-of-type {
+                margin-top: 80px;
+            }
+
             .sustainability-hero h1 {
                 font-size: 2.8rem;
             }
@@ -522,6 +534,10 @@
         }
 
         @media (max-width: 576px) {
+            section:first-of-type {
+                margin-top: 70px;
+            }
+
             .sustainability-hero {
                 height: 80vh;
                 min-height: 400px;
